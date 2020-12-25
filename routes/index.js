@@ -4,7 +4,7 @@ const router = express.Router();
 const controllers = require('../classes');
 const Pwa3Controller = controllers.Pwa3Controller;
 
-router.get('/lastVersion', function(req, res) {
+router.get('/pwa3/lastVersion', function(req, res) {
 	Pwa3Controller.getLastVersion().then(function(lastVersion) {
 		res.json({
 			success: true,
