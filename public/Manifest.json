@@ -4,7 +4,6 @@
 	"description": "pwa3",
 	
 	"start_url": "/",
-	"scope": "/",
 
 	"theme_color": "white",
 	"background_color": "white",
